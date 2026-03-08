@@ -11,67 +11,226 @@
 <body>
 
 <nav>
-    <div class="logo">Dev<span>Portfolio</span></div>
+    <div class="logo">Dev<span>Portfolio de David Enokian</span></div>
     <ul>
         <li><a href="#home">Accueil</a></li>
         <li><a href="#skills">Compétences</a></li>
         <li><a href="#projects">Projets</a></li>
+        <li><a href="#biographie">Mon Parcours</a></li>
     </ul>
 </nav>
 
 <header id="home">
     <div class="hero-content">
-        <h1>Étudiant en <span class="highlight">BUT Informatique</span></h1>
-        <p>Spécialisation Réalisation d'applications : Conception, Développement et Optimisation.</p>
+        <h1> <span class="highlight"> Portfolio de David Enokian </span></h1>
+        <p> <span class="highlight"> Spécialisation : Déploiement d'applications communicantes et sécurisées</span> </p>
+        <h3>Passionné par le <span class="highlight">Développement</span> & la <span class="highlight">Cybersécurité</span></h3>
+        <p class="hero-description">
+            À l’aise avec la programmation <strong>Java</strong>, les bases de données <strong>SQL</strong> et le travail en équipe,
+            je suis curieux, rigoureux et motivé par les environnements techniques modernes et collaboratifs.
+        </p>
+
         <a href="#skills" class="btn-main">Découvrir mes compétences</a>
+
     </div>
 </header>
+
 
 <section id="skills" class="container">
     <h2 class="section-title">Mes 6 Compétences (Référentiel BUT)</h2>
     <div class="skills-grid">
 
-        <div class="skill-card">
+        <a href="#skill-1" class="skill-card">
             <div class="icon">💻</div>
-            <h3>Réaliser</h3>
+            <h3>Réaliser un développement d’application</h3>
             <p>Développement d'applications complexes, de l'analyse des besoins au déploiement.</p>
-        </div>
+        </a>
 
-        <div class="skill-card">
+        <a href="#skill-2" class="skill-card">
             <div class="icon">⚡</div>
-            <h3>Optimiser</h3>
+            <h3>Optimiser des applications</h3>
             <p>Analyse algorithmique et amélioration des performances logicielles.</p>
-        </div>
+        </a>
 
-        <div class="skill-card">
+        <a href="#skill-3" class="skill-card">
             <div class="icon">☁️</div>
-            <h3>Administrer</h3>
+            <h3>Administrer des systèmes informatiques communicants complexes</h3>
             <p>Installation et configuration de systèmes, réseaux et services serveurs.</p>
-        </div>
+        </a>
 
-        <div class="skill-card">
+        <a href="#skill-4" class="skill-card">
             <div class="icon">🗄️</div>
-            <h3>Gérer</h3>
+            <h3>Gérer des données de l’information</h3>
             <p>Conception et administration de bases de données sécurisées et cohérentes.</p>
-        </div>
+        </a>
 
-        <div class="skill-card">
+        <a href="#skill-5" class="skill-card">
             <div class="icon">🌐</div>
-            <h3>Connecter</h3>
+            <h3>Conduire un projet</h3>
             <p>Développement de solutions communicantes et interfaçage avec des services tiers.</p>
-        </div>
+        </a>
 
-        <div class="skill-card">
+        <a href="#skill-6" class="skill-card">
             <div class="icon">🤝</div>
-            <h3>Collaborer</h3>
+            <h3>Collaborer au sein d’une équipe informatique</h3>
             <p>Gestion de projet agile et travail en équipe au sein de l'écosystème numérique.</p>
-        </div>
+        </a>
 
     </div>
 </section>
 
+<section id="skill-details" class="container">
+    <h2 class="section-title">Portfolio d'Apprentissage</h2>
+    <p style="text-align:center; color:var(--text-dim); margin-bottom:40px;">Bilan des acquis selon le référentiel BUT Informatique</p>
+
+    <div class="detail-item" id="skill-1">
+        <span class="detail-number">01</span>
+        <div class="detail-content">
+            <h3>C1 : Réaliser un développement d'application</h3>
+            <p><strong>Mon bilan :</strong> Je suis capable de concevoir et de développer des applications distribuées sécurisées en respectant les principes de la programmation orientée objet. Je sais implémenter des protocoles de communication complexes et intégrer des bibliothèques cryptographiques pour garantir la confidentialité des échanges.</p>
+
+            <div class="evidence">
+                <h4>Réalisation : Système d'enchères sécurisé (Java & Cryptographie)</h4>
+                <p>Développement d'une application client-serveur permettant la gestion d'enchères privées :</p>
+                <ul style="margin-top:10px; padding-left:20px; color:var(--text-dim); font-size:0.9rem;">
+                    <li><strong>Architecture Client-Serveur :</strong> Conception et mise en œuvre d'une architecture distribuée en Java pour la communication en temps réel entre les enchérisseurs et le serveur.</li>
+                    <li><strong>Programmation Orientée Objet :</strong> Structuration du code en classes cohérentes pour gérer les entités (Enchères, Utilisateurs, Objets) et assurer la maintenabilité du logiciel.</li>
+                    <li><strong>Implémentation Cryptographique :</strong> Intégration du cryptosystème à clé publique <b>Damgård-Jurik</b> pour permettre des enchères scellées et sécurisées.</li>
+                    <li><strong>Gestion des flux :</strong> Développement des protocoles d'échange de données pour assurer la synchronisation des offres et la validité des transactions.</li>
+                </ul>
+            </div>
+
+            <ul class="tags">
+                <li>Java</li>
+                <li>Socket / Réseau</li>
+                <li>POO</li>
+                <li>Damgård-Jurik</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="detail-item" id="skill-2">
+        <span class="detail-number">02</span>
+        <div class="detail-content">
+            <h3>C2 : Optimiser des applications</h3>
+            <p><strong>Mon bilan :</strong> Je suis capable d'appréhender des problèmes complexes de décision et d'organisation. Je sais <b>modéliser</b> des situations réelles sous forme mathématique pour trouver la solution la plus efficace (minimisation des coûts ou maximisation des profits).</p>
+
+            <div class="evidence">
+                <h4>Réalisation : Modélisation et Résolution par Programmation Linéaire</h4>
+                <p>J'ai appris à utiliser la Recherche Opérationnelle pour résoudre des problèmes d'optimisation sous contraintes:</p>
+                <ul style="margin-top:10px; padding-left:20px; color:var(--text-dim); font-size:0.9rem;">
+                    <li><strong>Modélisation :</strong> Identification des variables de décision, de la fonction économique et des contraintes du problème.</li>
+                    <li><strong>Résolution Graphique :</strong> Maîtrise de la méthode géométrique pour les problèmes à deux variables (droites d'iso-valeurs).</li>
+                    <li><strong>Méthode du Simplexe :</strong> Compréhension de l'algorithme pour résoudre des problèmes à n-variables par itérations successives.</li>
+                    <li><strong>Analyse Post-Optimale :</strong> Étude de la sensibilité des solutions face aux changements de paramètres (coûts ou ressources).</li>
+                </ul>
+            </div>
+
+            <ul class="tags">
+                <li>Recherche Opérationnelle</li>
+                <li>Simplexe</li>
+                <li>Modélisation</li>
+                <li>Aide à la décision</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="detail-item" id="skill-3">
+        <span class="detail-number">03</span>
+        <div class="detail-content">
+            <h3>C3 : Administrer des systèmes informatiques complexes</h3>
+            <p><strong>Mon bilan :</strong> Je suis capable d'installer et de configurer des environnements virtualisés pour isoler des services applicatifs. Je sais manipuler les concepts de <b>conteneurisation</b> pour assurer un déploiement reproductible et sécurisé des infrastructures.</p>
+
+            <div class="evidence">
+                <h4>Réalisation : Mise en œuvre de la technologie Docker</h4>
+                <p>Dans le cadre de cette compétence, j'ai étudié et pratiqué l'administration système via Docker :</p>
+                <ul style="margin-top:10px; padding-left:20px; color:var(--text-dim); font-size:0.9rem;">
+                    <li><strong>Installation :</strong> Configuration du moteur Docker sur une machine Linux/Windows.</li>
+                    <li><strong>Gestion d'images :</strong> Récupération d'images officielles sur le Docker Hub et gestion du cycle de vie des conteneurs.</li>
+                    <li><strong>Déploiement :</strong> Exécution de serveurs isolés (comme Nginx) et mapping de ports pour l'accès réseau.</li>
+                    <li><strong>Persistance :</strong> Utilisation de volumes pour garantir que les données survivent à la suppression d'un conteneur.</li>
+                </ul>
+            </div>
+
+            <ul class="tags">
+                <li>Administrer </li>
+                <li>Installer </li>
+                <li>Conteneurisation </li>
+                <li>Docker </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="detail-item" id="skill-4">
+        <span class="detail-number">04</span>
+        <div class="detail-content">
+            <h3>C4 : Gérer des données de l'information</h3>
+            <p><strong>Mon bilan :</strong> Je suis capable d'optimiser la structure des bases de données relationnelles pour garantir l'intégrité des informations et éliminer les redondances[cite: 140, 150]. Je maîtrise les processus de <b>normalisation</b> permettant de passer d'un modèle conceptuel à un schéma physique performant et évolutif.</p>
+
+            <div class="evidence">
+                <h4>Réalisation : Conception et Normalisation de Bases de Données</h4>
+                <p>J'ai appris à transformer des données brutes en structures relationnelles cohérentes en suivant des règles strictes :</p>
+                <ul style="margin-top:10px; padding-left:20px; color:var(--text-dim); font-size:0.9rem;">
+                    <li><strong>Dépendances Fonctionnelles :</strong> Identification des relations logiques entre les attributs d'une table.</li>
+                    <li><strong>Formes Normales (1FN, 2FN, 3FN) :</strong> Application rigoureuse des trois premières formes normales pour éviter les anomalies de mise à jour et la perte de données.</li>
+                    <li><strong>Décomposition sans perte :</strong> Capacité à diviser une relation complexe en plusieurs tables tout en conservant l'intégralité des informations d'origine.</li>
+                    <li><strong>Validation de schéma :</strong> Vérification de la cohérence d'une base de données par l'analyse des clés primaires et étrangères.</li>
+                </ul>
+            </div>
+
+            <ul class="tags">
+                <li>SQL</li>
+                <li>Normalisation</li>
+                <li>Dépendances Fonctionnelles</li>
+                <li>SGBDR</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="detail-item" id="skill-5">
+        <span class="detail-number">05</span>
+        <div class="detail-content">
+            <h3>C5 : Comprendre et Conduire les Systèmes d'Information</h3>
+            <p><strong>Mon bilan :</strong> Je suis capable d'appréhender les enjeux d'un Système d'Information (SI) au sein d'une organisation. Je sais identifier comment les flux d'information circulent entre les dimensions <b>organisationnelles</b>, <b>humaines</b> et <b>technologiques</b> pour répondre aux objectifs stratégiques d'une entreprise.</p>
+
+            <div class="evidence">
+                <h4>Réalisation : Analyse des enjeux et structures des SI</h4>
+                <p>J'ai étudié les mécanismes qui permettent à une entreprise de transformer des données brutes en ressources stratégiques :</p>
+                <ul style="margin-top:10px; padding-left:20px; color:var(--text-dim); font-size:0.9rem;">
+                    <li><strong>Définition du SI :</strong> Compréhension du SI comme un ensemble de ressources (matériel, logiciel, personnel, données) traitant l'information.</li>
+                    <li><strong>Enjeux Stratégiques :</strong> Analyse de l'impact du numérique sur les métiers et la nécessaire agilité des entreprises face aux évolutions technologiques.</li>
+                    <li><strong>Composantes du SI :</strong> Distinction entre le Système de Pilotage, le Système Opérant et le Système d'Information qui assure le lien entre les deux.</li>
+                    <li><strong>Urbanisation :</strong> Réflexion sur l'interconnexion des applications (ERP, CRM) pour assurer une circulation fluide de l'information.</li>
+                </ul>
+            </div>
+
+            <ul class="tags">
+                <li>Management SI</li>
+                <li>Gouvernance</li>
+                <li>Stratégie Numérique</li>
+                <li>Processus Métiers</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="detail-item" id="skill-6">
+        <span class="detail-number">06</span>
+        <div class="detail-content">
+            <h3>C6 : Collaborer au sein d'une équipe</h3>
+            <p><strong>Mon bilan :</strong> Je suis capable d'<b>écouter</b>, d'<b>argumenter</b> mes choix techniques et de <b>soutenir</b> le travail de l'équipe lors des revues de projet[cite: 104, 116].</p>
+            <div class="evidence">
+                <h4>Traces d'activités :</h4>
+                <p>Travail en équipe de 5 via Git (sae enchères) : gestion des conflits de merge.</p>
+            </div>
+            <ul class="tags">
+                <li>Argumenter</li><li>Défendre</li><li>Collaborer</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
 <footer>
-    <p>© 2024 - Portfolio BUT Informatique - [Ton Nom]</p>
+    <p>© 2026 - Portfolio BUT Informatique - [Enokian David]</p>
 </footer>
 
 </body>
